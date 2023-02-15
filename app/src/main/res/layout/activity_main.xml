@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp">
+
+        <Button
+            android:id="@+id/btn_scan_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Scan device" />
+
+        <Button
+            android:id="@+id/btn_connect_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="connect device" />
+
+        <Button
+            android:id="@+id/btn_disconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Disconnect device" />
+
+        <Button
+            android:id="@+id/btn_check_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="check connect" />
+
+        <Button
+            android:id="@+id/btn_set_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Set time" />
+
+        <Button
+            android:id="@+id/btn_set_heart_rate_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Set heart rate alarm" />
+
+        <Button
+            android:id="@+id/btn_set_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Set user info" />
+
+        <Button
+            android:id="@+id/btn_set_sport_target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Set sport target" />
+
+        <Button
+            android:id="@+id/btn_set_bp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Set bp" />
+
+        <Button
+            android:id="@+id/btn_do_not_disturb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Set Do not disturb" />
+
+        <Button
+            android:id="@+id/btn_set_message_notify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Set message notify" />
+
+        <Button
+            android:id="@+id/btn_set_phone_notify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Set phone notify" />
+
+        <Button
+            android:id="@+id/btn_set_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Set weather" />
+
+        <Button
+            android:id="@+id/btn_set_sedentary_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Set sedentary reminder" />
+
+        <Button
+            android:id="@+id/btn_add_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Set add calender" />
+
+        <Button
+            android:id="@+id/btn_set_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Set language" />
+
+        <Button
+            android:id="@+id/btn_set_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Set Distance" />
+
+        <Button
+            android:id="@+id/btn_set_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Set Temp" />
+
+        <Button
+            android:id="@+id/btn_set_hour_format"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Set Hour Format" />
+
+        <Button
+            android:id="@+id/btn_set_date_format"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Set date_format" />
+
+        <Button
+            android:id="@+id/btn_set_auto_sport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Set auto sport" />
+
+        <Button
+            android:id="@+id/btn_set_motor_vibrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Set motor vibrate" />
+
+        <Button
+            android:id="@+id/btn_set_smart_shot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Set smart shot" />
+
+        <Button
+            android:id="@+id/btn_get_device_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Get device info" />
+
+        <Button
+            android:id="@+id/btn_get_health_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Get health data" />
+
+        <Button
+            android:id="@+id/btn_get_battery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="get battery" />
+
+        <Button
+            android:id="@+id/btn_get_data_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="get data info" />
+
+        <Button
+            android:id="@+id/btn_it_his_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It his data" />
+
+        <Button
+            android:id="@+id/btn_sync_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sync data" />
+    </LinearLayout>
+</ScrollView>
